@@ -1,0 +1,9 @@
+prefix=/usr/local
+includedir=${prefix}/include
+libdir=${prefix}/lib
+
+Name: libx264
+Description: libx264
+Version: 1.0
+Libs: -L${libdir} -lx264
+Cflags: -I${includedir} 

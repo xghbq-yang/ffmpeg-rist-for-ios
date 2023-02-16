@@ -1,0 +1,9 @@
+prefix=/usr/local
+includedir=${prefix}/include
+libdir=${prefix}/lib
+
+Name: librist
+Description: Reliable Internet Stream Transport (RIST)
+Version: 0.2.7
+Libs: -L${libdir} -lrist 
+Cflags: -I${includedir} 
